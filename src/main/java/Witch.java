@@ -1,6 +1,10 @@
 public class Witch extends Magics{
 
     int magicAttack;
+    public void magicAttack(){
+
+        return;
+    }
     public Witch(String name) {
         super(name);
         super.health = 100;

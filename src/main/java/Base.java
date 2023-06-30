@@ -11,12 +11,6 @@ public abstract class Base {
         return;
     }
 
-    public void attack(){
-
-        return;
-    }
-
-
     public Base(String name) {
         this.name = name;
         this.level = 2;

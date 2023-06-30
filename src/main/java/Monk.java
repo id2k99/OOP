@@ -1,5 +1,9 @@
 public class Monk extends Magics {
     int hill;
+    public void hill(){
+
+        return;
+    }
     public Monk(String name) {
         super(name);
         super.health = 100;
