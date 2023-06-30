@@ -4,16 +4,20 @@ public abstract class Base {
     int level;
     int health;
     int initiative;
+
+    int defence;
     public void moving(){
 
         return;
     }
 
-    
+    public void attack(){
 
-     
+        return;
+    }
 
 
-
-
+    public Base(String name) {
+        this.name = name;
+    }
 }

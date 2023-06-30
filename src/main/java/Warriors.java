@@ -1,8 +1,8 @@
-public abstract class Warriors {
+public abstract class Warriors extends Base{
+    int attack;
+    public Warriors(String name) {
+        super(name);
 
-    int armor;
-    int attackPower;
-    public void attack(){
 
     }
 }
