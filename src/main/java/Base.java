@@ -19,5 +19,6 @@ public abstract class Base {
 
     public Base(String name) {
         this.name = name;
+        this.level = 2;
     }
 }
