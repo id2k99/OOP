@@ -7,6 +7,6 @@ public class Main {
         Arbalester arbalester1 = new Arbalester("arbalesrer1");
         Witch witch1 = new Witch("witch1");
         Monk monk1 = new Monk("monk1");
-
+        Countryman countryman1 = new Countryman("countryman1");
     }
 }
