@@ -1,6 +1,7 @@
 public class Countryman extends Base{
-
-    public Countryman(String name) {
-        super(name);
+    public static int count = 1;
+    public Countryman() {
+        super("countryman" + " "+ count);
+        count++;
     }
 }
