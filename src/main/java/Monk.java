@@ -6,7 +6,6 @@ public class Monk extends Magics {
         return;
     }
     public Monk() {
-        super("monk" + " "+ count);
         super.health = 100;
         super.initiative = 4;
         super.defence = 1;
@@ -15,7 +14,7 @@ public class Monk extends Magics {
     }
     @Override
     public String getInfo() {
-        return "Monk";
+        return "Monk" + " " + this.name;
     }
     @Override
     public void step() {

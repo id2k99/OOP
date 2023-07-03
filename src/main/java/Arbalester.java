@@ -2,7 +2,6 @@ public class Arbalester extends Archers{
     int speed;
     public static int count = 1;
     public Arbalester() {
-        super("arbalester" + " "+ count);
         super.health = 100;
         super.initiative = 4;
         super.defence = 5;
@@ -13,7 +12,7 @@ public class Arbalester extends Archers{
 
     @Override
     public String getInfo() {
-        return "Arbalester";
+        return "Arbalester" + " " + this.name;
     }
     @Override
     public void step() {

@@ -2,7 +2,6 @@ public class Sniper extends Archers{
     int accuracy;
     public static int count = 1;
     public Sniper() {
-        super("sniper" + " "+ count);
         super.health = 100;
         super.initiative = 4;
         super.defence = 3;
@@ -13,7 +12,7 @@ public class Sniper extends Archers{
 
     @Override
     public String getInfo() {
-        return "Sniper";
+        return "Sniper" + " " + this.name;
     }
     @Override
     public void step() {

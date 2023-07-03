@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public abstract class Base implements InGameInterface{
 
     String name;
@@ -10,9 +12,10 @@ public abstract class Base implements InGameInterface{
     }
 
 
- public Base(String name) {
-        this.name = name;
+ public Base() {
+        this.name =String.valueOf(Name.values()[new Random().nextInt(Name.values().length)]);
         this.level = 1;
    }
+
 
 }

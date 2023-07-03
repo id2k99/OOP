@@ -7,7 +7,6 @@ public class Witch extends Magics{
         return;
     }
     public Witch() {
-        super("witch" + " "+ count);
         super.health = 100;
         super.initiative = 4;
         super.defence = 1;
@@ -16,7 +15,7 @@ public class Witch extends Magics{
     }
     @Override
     public String getInfo() {
-        return "Witch";
+        return "Witch" + " " + this.name;
     }
     @Override
     public void step() {

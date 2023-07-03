@@ -2,7 +2,6 @@ public class Pikerman extends Warriors{
 
     public static int count = 1;
     public Pikerman() {
-        super("pikerman" + " "+ count);
         super.level = 1;
         super.health = 150;
         super.initiative = 4;
@@ -12,7 +11,7 @@ public class Pikerman extends Warriors{
     }
     @Override
     public String getInfo() {
-        return "Pikerman";
+        return "Pikerman" + " " + this.name;
     }
     @Override
     public void step() {

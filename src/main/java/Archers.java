@@ -3,8 +3,8 @@ public class Archers extends Base {
     public void shot(){
         return;
     }
-    public Archers(String name) {
-        super(name);
+    public Archers() {
+        super();
     }
     @Override
     public String getInfo() {

@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4cc142a-e58f-4616-bdc7-8221f7b7acfe" name="Changes" comment="" />
+    <list default="true" id="a4cc142a-e58f-4616-bdc7-8221f7b7acfe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Name.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Arbalester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arbalester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Archers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Archers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Countryman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Countryman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Monk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Monk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pikerman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pikerman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Robber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Robber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sniper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sniper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Witch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Witch.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +27,7 @@
       <list>
         <option value="Class" />
         <option value="Interface" />
+        <option value="Enum" />
       </list>
     </option>
   </component>

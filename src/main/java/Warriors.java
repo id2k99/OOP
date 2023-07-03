@@ -4,9 +4,6 @@ public abstract class Warriors extends Base{
 
         return;
     }
-    public Warriors(String name) {
-        super(name);
-
-
+    public Warriors() {
     }
 }
