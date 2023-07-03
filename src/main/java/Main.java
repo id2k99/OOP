@@ -53,7 +53,6 @@ public class Main {
                     teamList.add(new Countryman());
                     break;
                 default:
-                    // teams.add(new BaseHero());
                     break;
             }
         }
