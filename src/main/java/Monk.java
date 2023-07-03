@@ -13,4 +13,12 @@ public class Monk extends Magics {
         this.hill = 20;
         count++;
     }
+    @Override
+    public String getInfo() {
+        return "Monk";
+    }
+    @Override
+    public void step() {
+
+    }
 }

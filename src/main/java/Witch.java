@@ -14,5 +14,12 @@ public class Witch extends Magics{
         this.magicAttack = 7;
         count++;
     }
+    @Override
+    public String getInfo() {
+        return "Witch";
+    }
+    @Override
+    public void step() {
 
+    }
 }

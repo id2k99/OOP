@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4cc142a-e58f-4616-bdc7-8221f7b7acfe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/InGameInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Description/Task" beforeDir="false" afterPath="$PROJECT_DIR$/Description/Task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Description/Units" beforeDir="false" afterPath="$PROJECT_DIR$/Description/Units.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Arbalester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arbalester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Archers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Archers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Countryman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Countryman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Magics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Magics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
@@ -26,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>

@@ -4,4 +4,12 @@ public class Countryman extends Base{
         super("countryman" + " "+ count);
         count++;
     }
+    @Override
+    public String getInfo() {
+        return "Countryman";
+    }
+    @Override
+    public void step() {
+
+    }
 }

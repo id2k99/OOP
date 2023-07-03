@@ -8,4 +8,12 @@ public class Robber extends Warriors{
         super.defence = 5;
         count++;
     }
+    @Override
+    public String getInfo() {
+        return "Robber";
+    }
+    @Override
+    public void step() {
+
+    }
 }

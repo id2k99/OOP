@@ -10,4 +10,13 @@ public class Sniper extends Archers{
         this.accuracy = 1;
         count++;
     }
+
+    @Override
+    public String getInfo() {
+        return "Sniper";
+    }
+    @Override
+    public void step() {
+        super.step();
+    }
 }

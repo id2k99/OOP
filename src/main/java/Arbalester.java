@@ -10,4 +10,13 @@ public class Arbalester extends Archers{
         this.speed = 1;
         count++;
     }
+
+    @Override
+    public String getInfo() {
+        return "Arbalester";
+    }
+    @Override
+    public void step() {
+        super.step();
+    }
 }

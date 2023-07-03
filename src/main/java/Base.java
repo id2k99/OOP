@@ -1,4 +1,4 @@
-public abstract class Base {
+public abstract class Base implements InGameInterface{
 
     String name;
     int level;
@@ -9,8 +9,10 @@ public abstract class Base {
         return;
     }
 
-    public Base(String name) {
+
+ public Base(String name) {
         this.name = name;
         this.level = 1;
-    }
+   }
+
 }

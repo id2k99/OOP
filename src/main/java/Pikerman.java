@@ -10,4 +10,12 @@ public class Pikerman extends Warriors{
         super.defence = 6;
         count++;
     }
+    @Override
+    public String getInfo() {
+        return "Pikerman";
+    }
+    @Override
+    public void step() {
+
+    }
 }

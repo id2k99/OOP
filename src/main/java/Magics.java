@@ -5,4 +5,13 @@ public class Magics extends Base{
         super(name);
         this.mana = 100;
     }
+
+    @Override
+    public String getInfo() {
+        return null;
+    }
+    @Override
+    public void step() {
+
+    }
 }

@@ -6,4 +6,12 @@ public class Archers extends Base {
     public Archers(String name) {
         super(name);
     }
+    @Override
+    public String getInfo() {
+        return null;
+    }
+    @Override
+    public void step() {
+
+    }
 }
