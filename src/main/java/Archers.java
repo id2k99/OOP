@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public abstract class Archers extends Base {
     int shot;
     public void shot(){
@@ -12,8 +14,7 @@ public abstract class Archers extends Base {
     }
 
     @Override
-    public void step() {
+    public void step(ArrayList<Base> Enemy) {
 
     }
-
 }

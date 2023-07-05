@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Countryman extends Base{
@@ -11,7 +12,7 @@ public class Countryman extends Base{
     }
 
     @Override
-    public void step() {
+    public void step(ArrayList<Base> Enemy) {
 
     }
 }

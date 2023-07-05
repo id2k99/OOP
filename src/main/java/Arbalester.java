@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Arbalester extends Archers{
     int speed;
     public Arbalester(int x, int y) {
@@ -15,9 +17,7 @@ public class Arbalester extends Archers{
     }
 
     @Override
-    public void step() {
-        super.step();
+    public void step(ArrayList<Base> Enemy) {
+        super.step(Enemy);
     }
-
-
 }

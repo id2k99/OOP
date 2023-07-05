@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Pikerman extends Warriors{
 
     public Pikerman(int x,int y) {
@@ -13,7 +15,7 @@ public class Pikerman extends Warriors{
     }
 
     @Override
-    public void step() {
+    public void step(ArrayList<Base> Enemy) {
 
     }
 }

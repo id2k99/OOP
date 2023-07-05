@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Magics extends Base{
         int mana;
     public static int count = 1;
@@ -12,7 +14,7 @@ public class Magics extends Base{
     }
 
     @Override
-    public void step() {
+    public void step(ArrayList<Base> Enemy) {
 
     }
 }

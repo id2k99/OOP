@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Witch extends Magics{
 
     int magicAttack;
@@ -19,7 +21,7 @@ public class Witch extends Magics{
 
 
     @Override
-    public void step() {
-
+    public void step(ArrayList<Base> Enemy) {
+        super.step(Enemy);
     }
 }

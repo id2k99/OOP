@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Sniper extends Archers{
     int accuracy;
     public Sniper(int x, int y) {
@@ -15,8 +17,7 @@ public class Sniper extends Archers{
     }
 
     @Override
-    public void step() {
-        super.step();
+    public void step(ArrayList<Base> Enemy) {
+        super.step(Enemy);
     }
-
 }

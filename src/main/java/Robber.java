@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Robber extends Warriors{
     public Robber(int x, int y) {
         super(x,y);
@@ -13,7 +15,7 @@ public class Robber extends Warriors{
     }
 
     @Override
-    public void step() {
+    public void step(ArrayList<Base> Enemy) {
 
     }
 }

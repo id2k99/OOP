@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Monk extends Magics {
     int hill;
     public void hill(){
@@ -17,7 +19,7 @@ public class Monk extends Magics {
     }
 
     @Override
-    public void step() {
-
+    public void step(ArrayList<Base> Enemy) {
+        super.step(Enemy);
     }
 }
