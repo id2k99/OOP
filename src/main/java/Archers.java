@@ -10,12 +10,15 @@ public abstract class Archers extends Base {
     public String getInfo() {
         return null;
     }
+
+
+    public double getDistance(int xA, int yA, int xB, int yB) {
+        return 0;
+    }
+
     @Override
     public void step() {
 
     }
 
-    public void getDistance(int xA, int yA, int xB, int yB){
-
-    };
 }

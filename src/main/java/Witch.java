@@ -16,6 +16,14 @@ public class Witch extends Magics{
     public String getInfo() {
         return "Witch" + " " + this.name + " " + "Coordinates: " +  this.coordinates;
     }
+
+    @Override
+    public double getDistance(int xA,int yA, int xB, int yB) {
+        double distance;
+        distance = Math.sqrt((xB - xA)^2 + (yB - yA)^2);
+        return distance;
+    }
+
     @Override
     public void step() {
 
