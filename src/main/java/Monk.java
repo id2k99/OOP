@@ -1,20 +1,19 @@
 public class Monk extends Magics {
     int hill;
-    public static int count = 1;
     public void hill(){
 
         return;
     }
-    public Monk() {
+    public Monk(int x, int y) {
+        super(x,y);
         super.health = 100;
         super.initiative = 4;
         super.defence = 1;
         this.hill = 20;
-        count++;
     }
     @Override
     public String getInfo() {
-        return "Monk" + " " + this.name;
+        return "Monk" + " " + this.name + " " + "Coordinates: " +  this.coordinates;
     }
     @Override
     public void step() {

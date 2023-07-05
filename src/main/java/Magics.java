@@ -1,8 +1,9 @@
 public class Magics extends Base{
         int mana;
     public static int count = 1;
-        public Magics() {
-        this.mana = 100;
+        public Magics(int x, int y) {
+            super(x, y);
+            this.mana = 100;
     }
 
     @Override

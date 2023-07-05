@@ -1,15 +1,15 @@
 public class Robber extends Warriors{
-    public static int count = 1;
-    public Robber() {
+    public Robber(int x, int y) {
+        super(x,y);
         super.health = 100;
         super.initiative = 4;
-        super.attack = 5;
         super.defence = 5;
-        count++;
+        super.attack = 5;
+
     }
     @Override
     public String getInfo() {
-        return "Robber" + " " + this.name;
+        return "Robber" + " " + this.name + " " + "Coordinates: " +  this.coordinates;
     }
     @Override
     public void step() {

@@ -4,6 +4,7 @@ public abstract class Warriors extends Base{
 
         return;
     }
-    public Warriors() {
+    public Warriors(int x, int y) {
+        super(x, y);
     }
 }

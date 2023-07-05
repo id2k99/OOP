@@ -1,13 +1,13 @@
 import java.util.Random;
 
 public class Countryman extends Base{
-    public static int count = 1;
-    public Countryman() {
-        count++;
+
+    public Countryman(int x, int y) {
+        super(x,y);
     }
     @Override
     public String getInfo() {
-        return "Countryman" + " " + this.name;
+        return "Countryman" + " " + this.name + " " + "Coordinates: " +  this.coordinates;
     }
     @Override
     public void step() {
