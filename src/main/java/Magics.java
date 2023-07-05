@@ -10,10 +10,7 @@ public class Magics extends Base{
     public String getInfo() {
         return null;
     }
-    @Override
-    public double getDistance(int xA, int yA, int xB, int yB) {
-        return 0;
-    }
+
     @Override
     public void step() {
 

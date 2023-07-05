@@ -13,12 +13,6 @@ public class Robber extends Warriors{
     }
 
     @Override
-    public double getDistance(int xA,int yA, int xB, int yB) {
-        double distance;
-        distance = Math.sqrt((xB - xA)^2 + (yB - yA)^2);
-        return distance;
-    }
-    @Override
     public void step() {
 
     }

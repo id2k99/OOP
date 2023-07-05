@@ -5,14 +5,6 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
 
-
-//        Countryman countryman1 = new Countryman();
-//        Pikerman pikerman1 = new Pikerman();
-//        Robber robber1 = new Robber();
-//        Arbalester arbalester1 = new Arbalester();
-//        Sniper sniper1 = new Sniper();
-//        Monk monk1 = new Monk();
-//        Witch witch1 = new Witch();
         int numberTeam = 1;
         List<Base> teamOne = new ArrayList<>();
         List<Base> teamTwo = new ArrayList<>();
@@ -26,6 +18,8 @@ public class Main {
         System.out.println("TeamTwo:");
         getTeamInfo(teamTwo);
 
+        System.out.println(getDistance(teamOne.get(0).coordinates.x, teamOne.get(0).coordinates.y,
+                                        teamOne.get(8).coordinates.x, teamOne.get(8).coordinates.y));
         }
     public static void createTeam(List<Base> teamList, int numberTeam){
         int teamCount = 10;
@@ -74,6 +68,14 @@ public class Main {
         for (int i = 0; i < teamList.size(); i++) {
             System.out.println(teamList.get(i).getInfo());
         }
-        System.out.println();
+
+    }
+    public static double getDistance(int xA,int yA, int xB, int yB) {
+        double distance;
+        distance = Math.sqrt((xB - xA)^2 + (yB - yA)^2);
+        return distance;
+    }
+    public static double nearestEnemy(){
+        return 0;
     }
 }

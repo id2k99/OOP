@@ -11,11 +11,6 @@ public abstract class Archers extends Base {
         return null;
     }
 
-
-    public double getDistance(int xA, int yA, int xB, int yB) {
-        return 0;
-    }
-
     @Override
     public void step() {
 
