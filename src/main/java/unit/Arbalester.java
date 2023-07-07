@@ -1,7 +1,9 @@
+package unit;
+
 import java.util.ArrayList;
 
 public class Arbalester extends Archers{
-    int speed;
+    protected int speed;
     public Arbalester(int x, int y) {
         super(x,y);
         super.health = 100;

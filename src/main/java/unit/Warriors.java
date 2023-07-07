@@ -1,7 +1,9 @@
+package unit;
+
 import java.util.ArrayList;
 
 public abstract class Warriors extends Base{
-    int attack;
+    protected int attack;
     public void attack(){
 
         return;

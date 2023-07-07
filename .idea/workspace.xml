@@ -6,17 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="a4cc142a-e58f-4616-bdc7-8221f7b7acfe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Arbalester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Arbalester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Archers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Archers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Countryman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Countryman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InGameInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InGameInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Magics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Magics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Monk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Monk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pikerman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pikerman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Robber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Robber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sniper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sniper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Warriors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Warriors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Witch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Witch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Arbalester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Arbalester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Archers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Archers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Coordinates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Countryman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Countryman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InGameInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/InGameInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Magics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Magics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Monk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Monk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Name.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pikerman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Pikerman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Robber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Robber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sniper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Sniper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Warriors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Warriors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Witch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Witch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +57,20 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Homework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

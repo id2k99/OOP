@@ -1,5 +1,6 @@
+package unit;
+
 import java.util.ArrayList;
-import java.util.Random;
 
 public class Countryman extends Base{
 

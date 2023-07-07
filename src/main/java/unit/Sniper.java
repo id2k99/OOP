@@ -1,7 +1,9 @@
+package unit;
+
 import java.util.ArrayList;
 
 public class Sniper extends Archers{
-    int accuracy;
+    protected int accuracy;
     public Sniper(int x, int y) {
         super(x,y);
         super.health = 100;

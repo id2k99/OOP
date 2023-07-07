@@ -1,24 +1,24 @@
+package unit;
+
 import java.util.ArrayList;
 
-public class Witch extends Magics{
-
-    int magicAttack;
-    public void magicAttack(){
+public class Monk extends Magics {
+    protected int hill;
+    public void hill(){
 
         return;
     }
-    public Witch(int x, int y) {
+    public Monk(int x, int y) {
         super(x,y);
         super.health = 100;
         super.initiative = 4;
         super.defence = 1;
-        this.magicAttack = 7;
+        this.hill = 20;
     }
     @Override
     public String getInfo() {
-        return "Witch" + " " + this.name + " " + "Coordinates: " +  this.coordinates;
+        return "Monk" + " " + this.name + " " + "Coordinates: " +  this.coordinates;
     }
-
 
     @Override
     public void step(ArrayList<Base> Enemy) {

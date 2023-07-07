@@ -1,3 +1,5 @@
+import unit.*;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -6,8 +8,8 @@ public class Main {
     public static void main(String[] args) {
 
         int numberTeam = 1;
-        List<Base> teamOne = new ArrayList<>();
-        List<Base> teamTwo = new ArrayList<>();
+        ArrayList<Base> teamOne = new ArrayList<>();
+        ArrayList<Base> teamTwo = new ArrayList<>();
         createTeam(teamOne, numberTeam);
         numberTeam++;
         createTeam(teamTwo, numberTeam);
@@ -17,11 +19,10 @@ public class Main {
         getTeamInfo(teamOne);
         System.out.println("TeamTwo:");
         getTeamInfo(teamTwo);
+        teamOne.get(0).findNearest(teamTwo);
 
-        System.out.println(getDistance(teamOne.get(0).coordinates.x, teamOne.get(0).coordinates.y,
-                                        teamOne.get(8).coordinates.x, teamOne.get(8).coordinates.y));
         }
-    public static void createTeam(List<Base> teamList, int numberTeam){
+    public static void createTeam(ArrayList<Base> teamList, int numberTeam){
         int teamCount = 10;
         int coordinateY = 1;
         int coordinateX;
@@ -70,12 +71,5 @@ public class Main {
         }
 
     }
-    public static double getDistance(int xA,int yA, int xB, int yB) {
-        double distance;
-        distance = Math.sqrt((xB - xA)^2 + (yB - yA)^2);
-        return distance;
-    }
-    public static double nearestEnemy(){
-        return 0;
-    }
+
 }
