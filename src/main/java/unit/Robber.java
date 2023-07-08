@@ -13,11 +13,11 @@ public class Robber extends Warriors{
     }
     @Override
     public String getInfo() {
-        return "Robber" + " " + this.name + " " + "Coordinates: " +  this.coordinates;
+        return "Robber" + " " + this.name + " Health " + this.health;
     }
 
     @Override
-    public void step(ArrayList<Base> Enemy) {
+    public void step(ArrayList<Base> Owm, ArrayList<Base> Enemy) {
 
     }
 }

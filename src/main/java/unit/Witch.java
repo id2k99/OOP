@@ -18,12 +18,12 @@ public class Witch extends Magics{
     }
     @Override
     public String getInfo() {
-        return "Witch" + " " + this.name + " " + "Coordinates: " +  this.coordinates;
+        return "Witch" + " " + this.name + " Health " + this.health;
     }
 
 
     @Override
-    public void step(ArrayList<Base> Enemy) {
-        super.step(Enemy);
+    public void step(ArrayList<Base> Owm, ArrayList<Base> Enemy) {
+
     }
 }

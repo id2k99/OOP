@@ -16,7 +16,7 @@ public class Magics extends Base{
     }
 
     @Override
-    public void step(ArrayList<Base> Enemy) {
+    public void step(ArrayList<Base> Owm, ArrayList<Base> Enemy) {
 
     }
 }

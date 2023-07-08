@@ -6,21 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="a4cc142a-e58f-4616-bdc7-8221f7b7acfe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Arbalester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Arbalester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Archers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Archers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Coordinates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Countryman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Countryman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InGameInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/InGameInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Magics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Magics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Description/Task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Description/Task.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Monk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Monk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Name.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pikerman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Pikerman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Robber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Robber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sniper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Sniper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Warriors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Warriors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Witch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Witch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Arbalester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Arbalester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Archers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Archers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Countryman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Countryman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unit/InGameInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/InGameInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Magics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Magics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Monk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Monk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Pikerman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Pikerman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Robber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Robber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Sniper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Sniper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Warriors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Warriors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Witch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Witch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +50,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/YandexDisk/Обучение/9. Введение в ООП/Homework/src/main/java/org/example/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,

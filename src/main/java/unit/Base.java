@@ -10,6 +10,7 @@ public abstract class Base implements InGameInterface{
     protected int health;
     protected int initiative;
     protected int defence;
+    protected int [] attack;
     protected Coordinates coordinates;
 
      public Base(int x, int y) {
@@ -18,7 +19,9 @@ public abstract class Base implements InGameInterface{
             this.coordinates = new Coordinates(x, y);
        }
 
+    public void attack(ArrayList<Base> teamEnemy){
 
+    }
 
     public int findNearest(ArrayList<Base> teamEnemy) {
         double minDistance = Coordinates.getDistance(coordinates.x,teamEnemy.get(0).coordinates.x,coordinates.y,
@@ -33,7 +36,8 @@ public abstract class Base implements InGameInterface{
                 enemyIndex = i;
             }
         }
-        System.out.println(getClass().getName() + " " + name + "- " + teamEnemy.get(enemyIndex).name + " " + minDistance);
+//        System.out.println(getClass().getName() + " " + name + "- " +
+//                teamEnemy.get(enemyIndex).name + " " + minDistance);
 
         return enemyIndex;
     }

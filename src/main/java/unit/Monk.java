@@ -17,11 +17,10 @@ public class Monk extends Magics {
     }
     @Override
     public String getInfo() {
-        return "Monk" + " " + this.name + " " + "Coordinates: " +  this.coordinates;
+        return "Monk" + " " + this.name + " Health " + this.health;
     }
 
     @Override
-    public void step(ArrayList<Base> Enemy) {
-        super.step(Enemy);
+    public void step(ArrayList<Base> Owm, ArrayList<Base> Enemy) {
     }
 }

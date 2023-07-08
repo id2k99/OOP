@@ -19,9 +19,23 @@ public class Main {
         getTeamInfo(teamOne);
         System.out.println("TeamTwo:");
         getTeamInfo(teamTwo);
-        teamOne.get(0).findNearest(teamTwo);
-
+        for (Base c:teamOne){
+            c.step(teamOne,teamTwo);
         }
+        for (Base c:teamTwo){
+            c.step(teamTwo,teamOne);
+        }
+          System.out.println("TeamOne:");
+        getTeamInfo(teamOne);
+        System.out.println("TeamTwo:");
+        getTeamInfo(teamTwo);
+//        for (int i = 0; i < teamOne.size(); i++) {
+//            teamOne.get(i).step(teamOne,teamTwo);
+//        }
+//        for (int i = 0; i < teamTwo.size(); i++) {
+//            teamTwo.get(i).step(teamTwo,teamOne);
+//        }
+    }
     public static void createTeam(ArrayList<Base> teamList, int numberTeam){
         int teamCount = 10;
         int coordinateY = 1;
@@ -61,15 +75,13 @@ public class Main {
                     break;
             }
             coordinateY++;
-
         }
-
     }
     public static void getTeamInfo(List<Base> teamList){
         for (int i = 0; i < teamList.size(); i++) {
             System.out.println(teamList.get(i).getInfo());
         }
-
+        System.out.println("===============================================");
     }
 
 }

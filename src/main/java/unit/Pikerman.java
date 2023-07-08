@@ -13,11 +13,11 @@ public class Pikerman extends Warriors{
     }
     @Override
     public String getInfo() {
-        return "Pikerman" + " " + this.name + " " + "Coordinates: " +  this.coordinates;
+        return "Pikerman" + " " + this.name + " Health " + this.health;
     }
 
     @Override
-    public void step(ArrayList<Base> Enemy) {
+    public void step(ArrayList<Base> Owm, ArrayList<Base> Enemy) {
 
     }
 }
