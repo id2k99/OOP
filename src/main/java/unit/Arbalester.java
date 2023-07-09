@@ -10,7 +10,7 @@ public class Arbalester extends Archers{
         super.arrows = 10;
         super.initiative = 10;
         super.defence = 5;
-        super.attack = new int[]{12, 23};
+        super.attack = new int[]{15, 25};
 
     }
     @Override
@@ -19,7 +19,8 @@ public class Arbalester extends Archers{
     }
     @Override
     public void attack(ArrayList<Base> teamEnemy) {
-        teamEnemy.get(findNearest(teamEnemy)).health -= (this.attack[1]- this.attack[0])/2;
+        Base enemy = teamEnemy.get(findNearest(teamEnemy));
+        enemy.health -= (this.attack[1]+ this.attack[0])/2 - enemy.defence;
     }
     @Override
     public void step(ArrayList<Base> teamOwn, ArrayList<Base> teamEnemy) {

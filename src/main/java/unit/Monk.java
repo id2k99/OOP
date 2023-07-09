@@ -12,7 +12,7 @@ public class Monk extends Magics {
         super(x,y);
         super.health = 100;
         super.initiative = 6;
-        super.defence = 1;
+        super.defence = 2;
         this.hill = 20;
     }
     @Override

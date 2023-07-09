@@ -10,7 +10,7 @@ public class Sniper extends Archers{
         super.arrows = 10;
         super.initiative = 9;
         super.defence = 3;
-        super.attack = new int[]{9, 19};
+        super.attack = new int[]{15, 30};
     }
 
     @Override
@@ -20,7 +20,8 @@ public class Sniper extends Archers{
 
     @Override
     public void attack(ArrayList<Base> teamEnemy) {
-        teamEnemy.get(findNearest(teamEnemy)).health -= (this.attack[1]- this.attack[0])/2;
+        Base enemy = teamEnemy.get(findNearest(teamEnemy));
+        enemy.health -= (this.attack[1] + this.attack[0])/2 - enemy.defence;
     }
 
     @Override

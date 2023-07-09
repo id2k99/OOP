@@ -39,6 +39,8 @@ public class Main {
         getTeamInfo(teamOne);
         System.out.println("TeamTwo:");
         getTeamInfo(teamTwo);
+
+
     }
 
     public static void createTeam(ArrayList<Base> teamList, int numberTeam){
