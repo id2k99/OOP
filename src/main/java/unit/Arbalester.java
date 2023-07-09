@@ -8,7 +8,7 @@ public class Arbalester extends Archers{
         super(x,y);
         super.health = 100;
         super.arrows = 10;
-        super.initiative = 4;
+        super.initiative = 10;
         super.defence = 5;
         super.attack = new int[]{12, 23};
 

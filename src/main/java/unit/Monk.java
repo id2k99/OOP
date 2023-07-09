@@ -11,7 +11,7 @@ public class Monk extends Magics {
     public Monk(int x, int y) {
         super(x,y);
         super.health = 100;
-        super.initiative = 4;
+        super.initiative = 6;
         super.defence = 1;
         this.hill = 20;
     }

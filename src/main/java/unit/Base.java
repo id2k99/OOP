@@ -8,7 +8,7 @@ public abstract class Base implements InGameInterface{
     protected String name;
     protected int level;
     protected int health;
-    protected int initiative;
+    public int initiative;
     protected int defence;
     protected int [] attack;
     protected Coordinates coordinates;

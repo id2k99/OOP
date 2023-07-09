@@ -1,6 +1,7 @@
 import unit.*;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Random;
 
@@ -10,32 +11,36 @@ public class Main {
         int numberTeam = 1;
         ArrayList<Base> teamOne = new ArrayList<>();
         ArrayList<Base> teamTwo = new ArrayList<>();
+        ArrayList<Base> team = new ArrayList<>();
+
         createTeam(teamOne, numberTeam);
         numberTeam++;
         createTeam(teamTwo, numberTeam);
         numberTeam++;
+        team.addAll(teamOne);
+        team.addAll(teamTwo);
+        team.sort(Comparator.comparingInt((Base c) -> c.initiative));
 
         System.out.println("TeamOne:");
         getTeamInfo(teamOne);
         System.out.println("TeamTwo:");
         getTeamInfo(teamTwo);
-        for (Base c:teamOne){
-            c.step(teamOne,teamTwo);
+
+        for (Base c: team) {
+            if (teamOne.contains(c)){
+                c.step(teamOne, teamTwo);
+            }
+            else {
+                c.step(teamTwo, teamOne);
+            }
         }
-        for (Base c:teamTwo){
-            c.step(teamTwo,teamOne);
-        }
-          System.out.println("TeamOne:");
+
+        System.out.println("TeamOne:");
         getTeamInfo(teamOne);
         System.out.println("TeamTwo:");
         getTeamInfo(teamTwo);
-//        for (int i = 0; i < teamOne.size(); i++) {
-//            teamOne.get(i).step(teamOne,teamTwo);
-//        }
-//        for (int i = 0; i < teamTwo.size(); i++) {
-//            teamTwo.get(i).step(teamTwo,teamOne);
-//        }
     }
+
     public static void createTeam(ArrayList<Base> teamList, int numberTeam){
         int teamCount = 10;
         int coordinateY = 1;

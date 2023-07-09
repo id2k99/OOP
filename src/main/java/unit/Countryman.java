@@ -7,6 +7,7 @@ public class Countryman extends Base{
     public Countryman(int x, int y) {
         super(x,y);
         super.health = 100;
+        super.initiative = 1;
     }
     @Override
     public String getInfo() {

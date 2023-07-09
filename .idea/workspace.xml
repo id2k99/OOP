@@ -9,16 +9,11 @@
       <change beforePath="$PROJECT_DIR$/Description/Task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Description/Task.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/unit/Arbalester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Arbalester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Archers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Archers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/unit/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Base.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/unit/Countryman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Countryman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unit/InGameInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/InGameInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Magics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Magics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/unit/Monk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Monk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Pikerman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Pikerman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/unit/Robber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Robber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/unit/Sniper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Sniper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Warriors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Warriors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/unit/Witch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Witch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

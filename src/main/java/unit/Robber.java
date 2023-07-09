@@ -6,7 +6,7 @@ public class Robber extends Warriors{
     public Robber(int x, int y) {
         super(x,y);
         super.health = 100;
-        super.initiative = 4;
+        super.initiative = 5;
         super.defence = 5;
         super.attack = 5;
 

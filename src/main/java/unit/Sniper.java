@@ -8,7 +8,7 @@ public class Sniper extends Archers{
         super(x,y);
         super.health = 100;
         super.arrows = 10;
-        super.initiative = 4;
+        super.initiative = 9;
         super.defence = 3;
         super.attack = new int[]{9, 19};
     }

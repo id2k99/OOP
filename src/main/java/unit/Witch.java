@@ -12,7 +12,7 @@ public class Witch extends Magics{
     public Witch(int x, int y) {
         super(x,y);
         super.health = 100;
-        super.initiative = 4;
+        super.initiative = 7;
         super.defence = 1;
         this.magicAttack = 7;
     }
