@@ -7,9 +7,11 @@ public abstract class Base implements InGameInterface{
 
     protected String name;
     protected int level;
-    protected int health;
+    protected int currentHP;
+    protected int maxHP;
     public int initiative;
     protected int defence;
+    protected String state;
     protected int [] attack;
     protected Coordinates coordinates;
 
@@ -17,13 +19,19 @@ public abstract class Base implements InGameInterface{
             this.name =String.valueOf(Name.values()[new Random().nextInt(Name.values().length)]);
             this.level = 1;
             this.coordinates = new Coordinates(x, y);
+            this.state = "Stand";
        }
 
-    public void attack(ArrayList<Base> teamEnemy){
-
+     protected void attack(ArrayList<Base> teamEnemy) {
+        Base enemy = teamEnemy.get(findNearest(teamEnemy));
+        enemy.currentHP -= (this.attack[1]+ this.attack[0])/2 - enemy.defence;
+        if (enemy.currentHP <= 0){
+            enemy.state = "Die";
+            enemy.currentHP = 0;
+        }
     }
 
-    public int findNearest(ArrayList<Base> teamEnemy) {
+    protected int findNearest(ArrayList<Base> teamEnemy) {
         double minDistance = Coordinates.getDistance(coordinates.x,teamEnemy.get(0).coordinates.x,coordinates.y,
                 teamEnemy.get(0).coordinates.y);
         int enemyIndex = 0;
@@ -36,10 +44,6 @@ public abstract class Base implements InGameInterface{
                 enemyIndex = i;
             }
         }
-//        System.out.println(getClass().getName() + " " + name + "- " +
-//                teamEnemy.get(enemyIndex).name + " " + minDistance);
-
         return enemyIndex;
     }
-
 }

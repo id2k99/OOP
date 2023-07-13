@@ -6,12 +6,14 @@ public class Countryman extends Base{
 
     public Countryman(int x, int y) {
         super(x,y);
-        super.health = 100;
+        super.maxHP = 100;
+        super.currentHP = super.maxHP;
         super.initiative = 1;
+        super.state = "Free";
     }
     @Override
     public String getInfo() {
-        return "Countryman" + " " + this.name + " Health " + this.health;
+        return "Countryman" + " " + this.name + " " + this.state +" " + " Health " + this.currentHP;
     }
 
     @Override

@@ -19,4 +19,6 @@ public class Magics extends Base{
     public void step(ArrayList<Base> Owm, ArrayList<Base> Enemy) {
 
     }
+
+
 }

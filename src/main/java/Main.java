@@ -67,7 +67,7 @@ public class Main {
                     teamList.add(new Monk(coordinateX,coordinateY));
                     break;
                 case 3:
-                    teamList.add(new Witch(coordinateX,coordinateY));
+                    teamList.add(new Priest(coordinateX,coordinateY));
                     break;
                 case 4:
                     teamList.add(new Pikerman(coordinateX,coordinateY));
