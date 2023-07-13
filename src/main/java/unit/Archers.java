@@ -29,10 +29,5 @@ public abstract class Archers extends Base {
         this.arrows -= 1;
         setStatusCountryman(teamOwn);
 
-//        for(Base c: teamOwn){
-//            if (c.getClass() == Countryman.class) {return;}
-//        }
-
-
     }
 }

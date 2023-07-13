@@ -5,7 +5,10 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Random;
 
+
 public class Main {
+    //public static ArrayList<Base> team = new ArrayList<>();
+
     public static void main(String[] args) {
 
         int numberTeam = 1;
@@ -26,14 +29,19 @@ public class Main {
         System.out.println("TeamTwo:");
         getTeamInfo(teamTwo);
 
-        for (Base c: team) {
-            if (teamOne.contains(c)){
-                c.step(teamOne, teamTwo);
+        int i= 1;
+        while (i < 10){
+            for (Base c: team) {
+                if (teamOne.contains(c)){
+                    c.step(teamOne, teamTwo);
+                }
+                else {
+                    c.step(teamTwo, teamOne);
+                }
             }
-            else {
-                c.step(teamTwo, teamOne);
-            }
+            i++;
         }
+
 
         System.out.println("TeamOne:");
         getTeamInfo(teamOne);

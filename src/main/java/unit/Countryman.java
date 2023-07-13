@@ -7,8 +7,8 @@ public class Countryman extends Base{
     public Countryman(int x, int y) {
         super(x,y);
         super.maxHP = 100;
-        super.currentHP = super.maxHP;
-        super.initiative = 1;
+        super.currentHP = 100;
+        super.initiative = 2;
         super.state = "Free";
     }
     @Override
@@ -18,6 +18,7 @@ public class Countryman extends Base{
 
     @Override
     public void step(ArrayList<Base> Owm, ArrayList<Base> Enemy) {
+        if(this.currentHP > 0){this.state = "Free";}
 
     }
 }

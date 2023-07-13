@@ -5,7 +5,7 @@ public class Sniper extends Archers{
     public Sniper(int x, int y) {
         super(x,y);
         super.maxHP = 100;
-        super.currentHP = super.maxHP;
+        super.currentHP = 100;
         super.arrows = 10;
         super.initiative = 9;
         super.defence = 3;

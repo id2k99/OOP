@@ -5,7 +5,7 @@ public class Arbalester extends Archers{
     public Arbalester(int x, int y) {
         super(x,y);
         super.maxHP = 100;
-        super.currentHP = super.maxHP;
+        super.currentHP = 100;
         super.arrows = 10;
         super.initiative = 10;
         super.defence = 5;

@@ -7,7 +7,7 @@ public class Pikerman extends Warriors{
     public Pikerman(int x,int y) {
         super(x,y);
         super.maxHP = 150;
-        super.currentHP = super.maxHP;
+        super.currentHP = 150;
         super.initiative = 4;
         super.defence = 6;
         super.attack = 6;
