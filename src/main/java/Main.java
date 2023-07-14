@@ -7,14 +7,13 @@ import java.util.Random;
 
 
 public class Main {
-    //public static ArrayList<Base> team = new ArrayList<>();
+    public static ArrayList<Base> team = new ArrayList<>();
+    public static ArrayList<Base> teamOne = new ArrayList<>();
+    public static ArrayList<Base> teamTwo = new ArrayList<>();
 
     public static void main(String[] args) {
 
         int numberTeam = 1;
-        ArrayList<Base> teamOne = new ArrayList<>();
-        ArrayList<Base> teamTwo = new ArrayList<>();
-        ArrayList<Base> team = new ArrayList<>();
 
         createTeam(teamOne, numberTeam);
         numberTeam++;
@@ -29,8 +28,9 @@ public class Main {
         System.out.println("TeamTwo:");
         getTeamInfo(teamTwo);
 
+
         int i= 1;
-        while (i < 10){
+        while (i < 30){
             for (Base c: team) {
                 if (teamOne.contains(c)){
                     c.step(teamOne, teamTwo);
@@ -39,15 +39,9 @@ public class Main {
                     c.step(teamTwo, teamOne);
                 }
             }
+            View.view();
             i++;
         }
-
-
-        System.out.println("TeamOne:");
-        getTeamInfo(teamOne);
-        System.out.println("TeamTwo:");
-        getTeamInfo(teamTwo);
-
 
     }
 
@@ -100,3 +94,8 @@ public class Main {
     }
 
 }
+
+//        System.out.println("TeamOne:");
+//        getTeamInfo(teamOne);
+//        System.out.println("TeamTwo:");
+//        getTeamInfo(teamTwo);
