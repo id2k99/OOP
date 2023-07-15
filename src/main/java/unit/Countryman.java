@@ -13,7 +13,7 @@ public class Countryman extends Base{
     }
     @Override
     public String getInfo() {
-        return "Countryman" + " " + this.name + " " + this.state +" " + " Health " + this.currentHP;
+        return "Countryman" + " " + this.name + " " + this.state +" " + "| ♡ " + this.currentHP;
     }
 
     @Override

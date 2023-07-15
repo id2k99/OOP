@@ -14,7 +14,7 @@ public class Robber extends Warriors{
     }
     @Override
     public String getInfo() {
-        return "Robber" + " " + this.name + " " + this.state +" " + " Health " + this.currentHP;
+        return "Robber" + " " + this.name + " " + this.state +" " +  "| ♡ " + this.currentHP;
     }
 
     @Override

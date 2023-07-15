@@ -16,6 +16,6 @@ public class Priest extends Magics{
     }
     @Override
     public String getInfo() {
-        return "Priest" + " " + this.name + " " + this.state +" " + " Health " + this.currentHP;
+        return "Priest" + " " + this.name + " " + this.state +" " +  "| ♡ " + this.currentHP + " | ጠ " + this.mana;
     }
 }

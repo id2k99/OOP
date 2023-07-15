@@ -51,37 +51,50 @@ public class Main {
         int coordinateX;
         Random rand = new Random();
         for (int i = 0; i < teamCount; i++) {
-            int val = rand.nextInt(7);
+            int val = rand.nextInt(3);
             if (numberTeam%2 != 0){
                 coordinateX = 1;
             }
             else {
                 coordinateX = 10;
             }
-            switch (val) {
-                case 0:
-                    teamList.add(new Arbalester(coordinateX,coordinateY));
-                    break;
-                case 1:
-                    teamList.add(new Sniper(coordinateX,coordinateY));
-                    break;
-                case 2:
-                    teamList.add(new Monk(coordinateX,coordinateY));
-                    break;
-                case 3:
-                    teamList.add(new Priest(coordinateX,coordinateY));
-                    break;
-                case 4:
-                    teamList.add(new Pikerman(coordinateX,coordinateY));
-                    break;
-                case 5:
-                    teamList.add(new Robber(coordinateX,coordinateY));
-                    break;
-                case 6:
-                    teamList.add(new Countryman(coordinateX,coordinateY));
-                    break;
-                default:
-                    break;
+            if (numberTeam%2 != 0){
+                switch (val) {
+                    case 0:
+                        teamList.add(new Arbalester(coordinateX,coordinateY));
+                        break;
+                    case 1:
+                        teamList.add(new Monk(coordinateX,coordinateY));
+                        break;
+                    case 2:
+                        teamList.add(new Pikerman(coordinateX,coordinateY));
+                        break;
+                    case 3:
+                        teamList.add(new Countryman(coordinateX,coordinateY));
+                        break;
+                    default:
+                        break;
+                }
+
+            }
+            else {
+                switch (val) {
+                    case 0:
+                        teamList.add(new Sniper(coordinateX,coordinateY));
+                        break;
+                    case 1:
+                        teamList.add(new Priest(coordinateX,coordinateY));
+                        break;
+                    case 2:
+                        teamList.add(new Robber(coordinateX,coordinateY));
+                        break;
+                    case 3:
+                        teamList.add(new Countryman(coordinateX,coordinateY));
+                        break;
+                    default:
+                        break;
+                }
+
             }
             coordinateY++;
         }

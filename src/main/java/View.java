@@ -14,7 +14,7 @@ public class View {
             Collections.nCopies(9, formatDiv("-h"))) + formatDiv("-i");
     private static void tabSetter(int cnt, int max){
         int dif = max - cnt + 7;
-        if (dif>0) System.out.printf("%" + dif + "s", "N: \t"); else System.out.print("\t");
+        if (dif>0) System.out.printf("%" + dif + "s", "N: "); else System.out.print("\t");
     }
     private static String formatDiv(String str) {
         return str.replace('a', '\u250c')
@@ -53,12 +53,12 @@ public class View {
         }
         step++;
         Main.team.forEach((v) -> l[0] = Math.max(l[0], v.getInfo().length()));
-        System.out.print("_".repeat(l[0]*2));
+        System.out.print("_".repeat(l[0]*3));
         System.out.println("");
         System.out.print(top10 + "    ");
         System.out.print(AnsiColors.ANSI_GREEN+":\tGreen side"+AnsiColors.ANSI_RESET);
         //for (int i = 0; i < l[0]-9; i++)
-        System.out.print(" ".repeat(l[0]-7));
+        System.out.print(" ".repeat(l[0]-6));
         System.out.println(AnsiColors.ANSI_BLUE+":\tBlue side"+AnsiColors.ANSI_RESET);
         for (int i = 1; i < 11; i++) {
             System.out.print(getChar(1, i));

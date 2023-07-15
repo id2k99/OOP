@@ -14,7 +14,7 @@ public class Monk extends Magics {
     }
     @Override
     public String getInfo() {
-        return "Monk" + " " + this.name + " " + this.state +" " + " Health " + this.currentHP;
+        return "Monk" + " " + this.name + " " + this.state +" " +  "| ♡ " + this.currentHP + " | ጠ " + this.mana;
     }
 
 }

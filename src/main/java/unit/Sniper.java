@@ -14,7 +14,7 @@ public class Sniper extends Archers{
 
     @Override
     public String getInfo() {
-        return "Sniper" + " " + this.name + " " + this.state +" " + " Health " + this.currentHP + " Arrows " + this.arrows;
+        return "Sniper" + " " + this.name + " " + this.state +" " + "| ♡ " + this.currentHP + " | ➶ " + this.arrows;
     }
 
 }

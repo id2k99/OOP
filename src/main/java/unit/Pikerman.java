@@ -14,7 +14,7 @@ public class Pikerman extends Warriors{
     }
     @Override
     public String getInfo() {
-        return "Pikerman" + " " + this.name + " " + this.state +" " + " Health " + this.currentHP;
+        return "Pikerman" + " " + this.name + " " + this.state +" " +  "| ♡ " + this.currentHP;
     }
 
     @Override
