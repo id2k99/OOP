@@ -13,8 +13,8 @@ public class View {
     private static final String bottom10 = formatDiv("g") + String.join("",
             Collections.nCopies(9, formatDiv("-h"))) + formatDiv("-i");
     private static void tabSetter(int cnt, int max){
-        int dif = max - cnt + 5;
-        if (dif>0) System.out.printf("%" + dif + "s", "N :\t"); else System.out.print("N :\t");
+        int dif = max - cnt + 7;
+        if (dif>0) System.out.printf("%" + dif + "s", "N: \t"); else System.out.print("\t");
     }
     private static String formatDiv(String str) {
         return str.replace('a', '\u250c')
@@ -63,9 +63,9 @@ public class View {
         for (int i = 1; i < 11; i++) {
             System.out.print(getChar(1, i));
         }
-        System.out.print("|    ");
+        System.out.print("|    N: ");
         System.out.print(Main.teamOne.get(0).getInfo());
-        tabSetter(Main.teamTwo.get(0).getInfo().length(), l[0]);
+        tabSetter(Main.teamOne.get(0).getInfo().length(), l[0]);
         System.out.println(Main.teamTwo.get(0).getInfo());
         System.out.println(midl10);
 
@@ -73,7 +73,7 @@ public class View {
             for (int j = 1; j < 11; j++) {
                 System.out.print(getChar(i, j));
             }
-            System.out.print("|    ");
+            System.out.print("|    N: ");
             System.out.print(Main.teamOne.get(i-1).getInfo());
             tabSetter(Main.teamOne.get(i-1).getInfo().length(), l[0]);
             System.out.println(Main.teamTwo.get(i-1).getInfo());
@@ -82,9 +82,9 @@ public class View {
         for (int j = 1; j < 11; j++) {
             System.out.print(getChar(10, j));
         }
-        System.out.print("|    ");
+        System.out.print("|    N: ");
         System.out.print(Main.teamOne.get(9).getInfo());
-        tabSetter(Main.teamTwo.get(9).getInfo().length(), l[0]);
+        tabSetter(Main.teamOne.get(9).getInfo().length(), l[0]);
         System.out.println(Main.teamTwo.get(9).getInfo());
         System.out.println(bottom10);
     }
