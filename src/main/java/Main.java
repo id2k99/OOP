@@ -30,7 +30,7 @@ public class Main {
 
 
         int i= 1;
-        while (i < 30){
+        while (true){
             for (Base c: team) {
                 if (teamOne.contains(c)){
                     c.step(teamOne, teamTwo);
@@ -41,36 +41,45 @@ public class Main {
             }
             View.view();
             i++;
+            if (teamDie(teamOne)){
+                System.out.println("Team Two WIN");
+                break;
+            }
+            if (teamDie(teamTwo)){
+                System.out.println("Team One WIN");
+                break;
+            }
         }
 
     }
 
     public static void createTeam(ArrayList<Base> teamList, int numberTeam){
         int teamCount = 10;
-        int coordinateY = 1;
-        int coordinateX;
+        int coordinateY;
+        int coordinateX = 1;
         Random rand = new Random();
         for (int i = 0; i < teamCount; i++) {
             int val = rand.nextInt(3);
             if (numberTeam%2 != 0){
-                coordinateX = 1;
+                coordinateY = 1;
             }
             else {
-                coordinateX = 10;
+                coordinateY = 10;
             }
             if (numberTeam%2 != 0){
+
                 switch (val) {
                     case 0:
-                        teamList.add(new Arbalester(coordinateX,coordinateY));
+                        teamList.add(new Arbalester(coordinateX,coordinateY, numberTeam));
                         break;
                     case 1:
-                        teamList.add(new Monk(coordinateX,coordinateY));
+                        teamList.add(new Monk(coordinateX,coordinateY, numberTeam));
                         break;
                     case 2:
-                        teamList.add(new Pikerman(coordinateX,coordinateY));
+                        teamList.add(new Pikerman(coordinateX,coordinateY, numberTeam));
                         break;
                     case 3:
-                        teamList.add(new Countryman(coordinateX,coordinateY));
+                        teamList.add(new Countryman(coordinateX,coordinateY,numberTeam));
                         break;
                     default:
                         break;
@@ -80,23 +89,23 @@ public class Main {
             else {
                 switch (val) {
                     case 0:
-                        teamList.add(new Sniper(coordinateX,coordinateY));
+                        teamList.add(new Sniper(coordinateX,coordinateY, numberTeam));
                         break;
                     case 1:
-                        teamList.add(new Priest(coordinateX,coordinateY));
+                        teamList.add(new Witch(coordinateX,coordinateY, numberTeam));
                         break;
                     case 2:
-                        teamList.add(new Robber(coordinateX,coordinateY));
+                        teamList.add(new Robber(coordinateX,coordinateY, numberTeam));
                         break;
                     case 3:
-                        teamList.add(new Countryman(coordinateX,coordinateY));
+                        teamList.add(new Countryman(coordinateX,coordinateY,numberTeam));
                         break;
                     default:
                         break;
                 }
 
             }
-            coordinateY++;
+            coordinateX++;
         }
     }
     public static void getTeamInfo(List<Base> teamList){
@@ -104,6 +113,16 @@ public class Main {
             System.out.println(teamList.get(i).getInfo());
         }
         System.out.println("===============================================");
+    }
+
+    public static boolean teamDie(ArrayList<Base> team){
+        boolean state = false;
+        for (Base c: team) {
+            if(!c.die())
+                return false;
+        }
+        return true;
+
     }
 
 }

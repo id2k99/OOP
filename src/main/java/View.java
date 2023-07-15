@@ -31,7 +31,7 @@ public class View {
     private static String getChar(int x, int y){
         String out = "| ";
         for (Base human: Main.team) {
-            if (human.getCoords()[0] == x && human.getCoords()[1] == y){
+            if (human.getCoords()[0] == y && human.getCoords()[1] ==x){
                 if (human.getHp() == 0) {
                     out = "|" + (AnsiColors.ANSI_RED + human.toString().charAt(5) + AnsiColors.ANSI_RESET);
                     break;

@@ -9,13 +9,17 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/unit/Arbalester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Arbalester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Archers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Archers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Coordinates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/unit/Countryman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Countryman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/unit/Magics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Magics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/unit/Monk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Monk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/unit/Pikerman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Pikerman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Priest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Priest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Priest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Witch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/unit/Robber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Robber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/unit/Sniper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Sniper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unit/Warriors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unit/Warriors.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +94,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

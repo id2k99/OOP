@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class Monk extends Magics {
 
 
-    public Monk(int x, int y) {
-        super(x,y);
+    public Monk(int x, int y, int number) {
+        super(x,y, number);
         super.maxHP = 100;
         super.currentHP = 100;
         super.initiative = 1;

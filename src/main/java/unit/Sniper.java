@@ -2,8 +2,8 @@ package unit;
 
 public class Sniper extends Archers{
 
-    public Sniper(int x, int y) {
-        super(x,y);
+    public Sniper(int x, int y, int number) {
+        super(x,y, number);
         super.maxHP = 100;
         super.currentHP = 100;
         super.arrows = 10;

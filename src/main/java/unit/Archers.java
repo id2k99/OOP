@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public abstract class Archers extends Base {
     //protected int shot;
     protected int arrows;
-    public Archers(int x, int y) {
-        super(x,y);
+    public Archers(int x, int y, int number) {
+        super(x,y, number);
     }
     @Override
     public String getInfo() {

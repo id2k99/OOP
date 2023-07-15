@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Countryman extends Base{
 
-    public Countryman(int x, int y) {
-        super(x,y);
+    public Countryman(int x, int y, int number) {
+        super(x,y, number);
         super.maxHP = 100;
         super.currentHP = 100;
         super.initiative = 2;
