@@ -1,7 +1,5 @@
 package unit;
 
-import java.util.ArrayList;
-
 public class Pikerman extends Warriors{
 
     public Pikerman(int x, int y, int number) {

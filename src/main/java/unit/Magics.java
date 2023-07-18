@@ -1,7 +1,5 @@
 package unit;
-
 import java.util.ArrayList;
-import java.util.Random;
 
 public class Magics extends Base{
         protected int mana;
@@ -46,7 +44,7 @@ public class Magics extends Base{
                     for (Base c : Enemy) {
                         if (!c.state.equals("Die")) {
                             c.currentHP -= (this.attack[0] + this.attack[1]) / 2;
-                            c.state = "Magic_attack";
+                            //c.state = "Magic_attack";
                             if (c.currentHP <= 0) {
                                 c.state = "Die";
                                 c.currentHP = 0;
@@ -61,10 +59,3 @@ public class Magics extends Base{
             else this.mana +=5;
     }
 }
-//    int attackTargetIndex = new Random().nextInt(Enemy.size());
-//                    Enemy.get(attackTargetIndex).currentHP -= (this.attack[0] + this.attack[1])/2;
-//                            Enemy.get(attackTargetIndex).state = "Magic_attack";
-//                            if (Enemy.get(attackTargetIndex).currentHP <= 0){
-//                            Enemy.get(attackTargetIndex).state = "Die";
-//                            Enemy.get(attackTargetIndex).currentHP = 0;
-//                            }

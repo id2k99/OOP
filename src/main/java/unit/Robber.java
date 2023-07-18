@@ -1,7 +1,5 @@
 package unit;
 
-import java.util.ArrayList;
-
 public class Robber extends Warriors{
     public Robber(int x, int y, int number) {
         super(x,y, number);

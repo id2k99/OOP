@@ -23,9 +23,7 @@ public abstract class Base implements InGameInterface {
         this.numberTeam = number;
 
     }
-//    public void setNumberTeam(int numder){
-//        this.numderTeam = numder;
-//    }
+
     protected void attack(ArrayList<Base> teamEnemy) {
         Base enemy = teamEnemy.get(findNearest(teamEnemy));
 

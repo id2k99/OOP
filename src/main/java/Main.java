@@ -42,11 +42,12 @@ public class Main {
             View.view();
             i++;
             if (teamDie(teamOne)){
-                System.out.println("Team Two WIN");
+                System.out.println();
+                System.out.println(AnsiColors.ANSI_BLUE+"\tBlue side WIN"+AnsiColors.ANSI_RESET);
                 break;
             }
             if (teamDie(teamTwo)){
-                System.out.println("Team One WIN");
+                System.out.println(AnsiColors.ANSI_GREEN+"\tGreen side WIN"+AnsiColors.ANSI_RESET);
                 break;
             }
         }
@@ -59,7 +60,7 @@ public class Main {
         int coordinateX = 1;
         Random rand = new Random();
         for (int i = 0; i < teamCount; i++) {
-            int val = rand.nextInt(3);
+            int val = rand.nextInt(4);
             if (numberTeam%2 != 0){
                 coordinateY = 1;
             }
@@ -109,8 +110,8 @@ public class Main {
         }
     }
     public static void getTeamInfo(List<Base> teamList){
-        for (int i = 0; i < teamList.size(); i++) {
-            System.out.println(teamList.get(i).getInfo());
+        for (Base base : teamList) {
+            System.out.println(base.getInfo());
         }
         System.out.println("===============================================");
     }

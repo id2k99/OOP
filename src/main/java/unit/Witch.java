@@ -2,8 +2,6 @@ package unit;
 
 public class Witch extends Magics{
 
-
-
     public Witch(int x, int y, int number) {
         super(x,y, number);
         super.maxHP = 100;
