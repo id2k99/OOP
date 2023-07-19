@@ -20,19 +20,5 @@ public class Coordinates{
         return Math.sqrt(Math.pow(enemyX-this.x,2)+Math.pow(enemyY-this.y,2));
     }
 
-    public  int[] coordStep(Coordinates coordEnemy) {
 
-        int[] coordStep = {x,y};
-        if(Math.abs(this.x-coordEnemy.x) < Math.abs(this.y-coordEnemy.y)){
-
-            if (coordEnemy.y > this.y) coordStep[1] += 1;
-            else coordStep[1] -= 1;
-        }
-        else {
-            if (coordEnemy.x > this.x) coordStep[0] += 1;
-            else coordStep[0] -= 1;
-        }
-
-        return coordStep;
-    }
 }
