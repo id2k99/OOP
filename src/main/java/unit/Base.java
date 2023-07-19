@@ -42,15 +42,20 @@ public abstract class Base implements InGameInterface {
         double minDistance = coordinates.getDistance(teamEnemy.get(0).coordinates.x,
                 teamEnemy.get(0).coordinates.y);
         int enemyIndex = 0;
+        ArrayList<Base> notDeadTeam = new ArrayList<Base>();
+        for (Base p : teamEnemy) {
+            if(!p.state.equals("Die")) notDeadTeam.add(p);
+        }
+        for (int i = 0; i < notDeadTeam.size(); i++) {
 
-        for (int i = 0; i < teamEnemy.size(); i++) {
+                double j = coordinates.getDistance(notDeadTeam.get(i).coordinates.x,
+                        notDeadTeam.get(i).coordinates.y);
+                if (j < minDistance) {
+                    minDistance = j;
+                    enemyIndex = i;
+                }
 
-            double j = coordinates.getDistance(teamEnemy.get(i).coordinates.x,
-                    teamEnemy.get(i).coordinates.y);
-            if (j < minDistance) {
-                minDistance = j;
-                enemyIndex = i;
-            }
+
         }
         return enemyIndex;
     }

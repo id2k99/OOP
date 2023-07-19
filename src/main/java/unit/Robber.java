@@ -12,6 +12,7 @@ public class Robber extends Warriors{
     }
     @Override
     public String getInfo() {
-        return "Robber" + " " + this.name + " " + this.state +" " +  "| ♡ " + this.currentHP;
+        return "Robber" + " " + this.name + " " + this.state +" " +  "| ♡ " + this.currentHP +
+                "| x " +this.coordinates.x + " y " + this.coordinates.y;
     }
 }

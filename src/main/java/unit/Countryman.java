@@ -9,7 +9,7 @@ public class Countryman extends Base{
         super.maxHP = 100;
         super.currentHP = 100;
         super.initiative = 2;
-        super.state = "Free";
+        super.state = "Stand";
     }
     @Override
     public String getInfo() {
@@ -18,7 +18,7 @@ public class Countryman extends Base{
 
     @Override
     public void step(ArrayList<Base> Owm, ArrayList<Base> Enemy) {
-        if(this.currentHP > 0){this.state = "Free";}
+        if(this.currentHP > 0){this.state = "Stand";}
 
     }
 }
